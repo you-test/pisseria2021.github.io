@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+
+
+  .menu-wrapper {
+  flex-direction: column;
+  }
+
+  #menu img {
+    width: 100%;
+  }
+
+  nav {
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+    padding-top:10px;
+    height: 200px;
+  }
+
+  .navi-list a {
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+
+}

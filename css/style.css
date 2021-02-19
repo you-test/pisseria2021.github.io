@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-family: serif;
+}
+
+nav {
+  background-image: url(../image/pizza1.jpg);
+  background-size:cover;
+  height: 387px;
+  padding-top: 50px;
+}
+
+.navi-list a {
+  color: white;
+  display: inline-block;
+  letter-spacing: 5px;
+  border-bottom: solid 1px white;
+  margin-bottom: 30px;
+  font-weight: bold;
+  transition: all 1.5s;
+}
+
+.navi-list a:hover {
+  color: black;
+  background-color: white;
+}
+
+.section-title {
+  border-bottom: solid 1px black;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+
+
+#concept img {
+  width: 100%;
+  max-width: 100%;
+}
+
+#menu {
+  background-color: #FFFFCC;
+}
+
+#menu img {
+  width: 50%;
+}
+
+.menu-wrapper {
+  display: flex;
+}
+
+.menu-contents p {
+  margin-top: 40px
+}
+
+#recruit {
+  padding-bottom: 40px;
+  background-color: #EEEEEE;
+}
+
+#shop-info {
+  background-color: black;
+  color: white;
+}
